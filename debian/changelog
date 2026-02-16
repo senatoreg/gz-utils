@@ -1,10 +1,5 @@
-gz-utils (3.1.1-1) UNRELEASED; urgency=medium
+gz-utils (4.0.0-1) UNRELEASED; urgency=medium
 
   * Initial release.
-  * New upstream release.
-  * New upstream release.
-  * New upstream release.
-  * New upstream release.
-  * New upstream release.
 
- -- Giovanni Senatore <giovanni.senatore@gmail.com>  Mon, 24 Feb 2025 17:51:13 +0100
+ -- Giovanni Senatore <giovanni.senatore@gmail.com>  Mon, 16 Feb 2026 19:29:29 +0100
