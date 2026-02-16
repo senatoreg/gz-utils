@@ -3,13 +3,13 @@ cmake_minimum_required(VERSION 3.22.1 FATAL_ERROR)
 #============================================================================
 # Initialize the project
 #============================================================================
-project(gz-utils3 VERSION 3.1.1)
+project(gz-utils VERSION 4.0.0)
 
 #============================================================================
 # Find gz-cmake
 #============================================================================
 # If you get an error at this line, you need to install gz-cmake
-find_package(gz-cmake4 REQUIRED)
+find_package(gz-cmake REQUIRED)
 
 #============================================================================
 # Configure the project
@@ -25,7 +25,7 @@ gz_configure_project(VERSION_SUFFIX)
 option(
   GZ_UTILS_VENDOR_CLI11
   "If true, use the vendored version of CLI11, otherwise use an external one"
-  true)
+  OFF)
 
 #============================================================================
 # Search for project-specific dependencies

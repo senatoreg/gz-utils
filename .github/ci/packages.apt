@@ -1,2 +1,3 @@
-libgz-cmake4-dev
+libcli11-dev
+gz-jetty-cmake
 libspdlog-dev

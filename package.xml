@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>gz-utils3</name>
-  <version>3.1.1</version>
+  <name>gz-utils</name>
+  <version>4.0.0</version>
   <description>Gazebo Utils : Classes and functions for robot applications</description>
 
   <maintainer email="addisu@openrobotics.org">Addizu Z. Taddese</maintainer>
@@ -11,8 +11,9 @@
 
   <buildtool_depend>cmake</buildtool_depend>
 
-  <build_depend>gz-cmake4</build_depend>
+  <build_depend>gz-cmake</build_depend>
 
+  <depend>cli11</depend>
   <depend>spdlog</depend>
 
   <export>
